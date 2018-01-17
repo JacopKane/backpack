@@ -1,5 +1,5 @@
 {
-  "name": "backpack-examples-with-custom-webpack-config",
+  "name": "backpack-examples-with-custom-webpack-config-babel-7",
   "version": "0.5.0",
   "scripts": {
     "start": "node ./build/main.js",
