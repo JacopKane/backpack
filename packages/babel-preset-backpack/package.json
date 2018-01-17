@@ -1,5 +1,5 @@
 {
-  "name": "babel-preset-backpack",
+  "name": "babel-preset-backpack-babel-7",
   "version": "0.5.0",
   "description": "Babel preset for Backpack projects",
   "repository": "palmerhq/backpack",
