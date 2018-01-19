@@ -1,4 +1,5 @@
 {
+    "private": true,
   "devDependencies": {
     "lerna": "^2.0.0-rc.5"
   },
@@ -8,5 +9,9 @@
   },
   "dependencies": {
     "@babel/preset-stage-0": "^7.0.0-beta.37"
-  }
+    },
+    "workspaces": [
+      "examples/*",
+      "packages/*"
+    ]
 }

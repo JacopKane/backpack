@@ -1,6 +1,6 @@
 {
   "presets": [
-    "backpack-core/babel",
+    "backpack-core-babel-7/babel",
     "@babel/preset-stage-0"
   ]
 }

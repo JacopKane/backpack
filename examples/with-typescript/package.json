@@ -3,14 +3,13 @@
   "version": "0.5.0",
   "scripts": {
     "start": "node ./build/main.js",
-    "dev": "backpack dev",
-    "build": "backpack build"
+    "dev": "backpack dev"
   },
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.0.34",
     "awesome-typescript-loader": "^3.0.0-beta.18",
-    "backpack-core": "^0.5.0",
+    "backpack-core-babel-7": "^0.6.0",
     "express": "^4.14.0",
     "typescript": "^2.1.5"
   }

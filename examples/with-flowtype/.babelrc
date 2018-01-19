@@ -1,6 +1,6 @@
 {
   "presets": [
-    "backpack-core/babel"
+    "backpack-core-babel-7/babel"
   ],
   "plugins": [
     "@babel/plugin-transform-flow-strip-types"
