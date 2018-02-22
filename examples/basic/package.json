@@ -1,6 +1,6 @@
 {
-  "name": "backpack-examples-basic",
-  "version": "0.5.0",
+  "name": "backpack-examples-basic-yarn-workspaces",
+  "version": "0.6.1",
   "scripts": {
     "start": "node ./build/main.js",
     "dev": "backpack dev",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "backpack-core": "^0.5.0",
-    "express": "^4.14.0"
+    "backpack-core-yarn-workspaces": "^0.6.1",
+    "express": "^4.16.2"
   }
 }
