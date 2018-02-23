@@ -1,6 +1,6 @@
 {
   "presets": [
-    "backpack-core/babel",
+    "backpack-core-yarn-workspaces/babel",
     "stage-0"
   ]
 }
