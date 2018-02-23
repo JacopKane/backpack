@@ -1,6 +1,6 @@
 {
   "name": "backpack-examples-with-custom-webpack-config-yarn-workspaces",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "scripts": {
     "start": "node ./build/main.js",
     "dev": "backpack dev",
@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "backpack-core-yarn-workspaces": "^0.6.1",
+    "backpack-core-yarn-workspaces": "^0.6.2",
     "express": "^4.14.0"
   }
 }
