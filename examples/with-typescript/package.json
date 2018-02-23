@@ -1,6 +1,6 @@
 {
   "name": "backpack-examples-with-typescript-yarn-workspaces",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "scripts": {
     "start": "node ./build/main.js",
     "dev": "backpack dev",
@@ -10,7 +10,7 @@
   "dependencies": {
     "@types/express": "^4.0.34",
     "awesome-typescript-loader": "^3.0.0-beta.18",
-    "backpack-core-yarn-workspaces": "^0.6.2",
+    "backpack-core-yarn-workspaces": "^0.6.3",
     "express": "^4.14.0",
     "typescript": "^2.1.5"
   }

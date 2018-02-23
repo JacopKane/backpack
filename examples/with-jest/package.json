@@ -1,6 +1,6 @@
 {
   "name": "backpack-examples-with-jest-yarn-workspaces",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "scripts": {
     "start": "node ./build/main.js",
     "test": "NODE_ENV=test jest",
@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "backpack-core-yarn-workspaces": "^0.6.2",
+    "backpack-core-yarn-workspaces": "^0.6.3",
     "express": "^4.14.0"
   },
   "devDependencies": {
