@@ -116,14 +116,7 @@ module.exports = (options) => {
       new webpack.BannerPlugin({
         raw: true,
         entryOnly: false,
-        banner: `require('${
-          // Is source-map-support installed as project dependency, or linked?
-          ( require.resolve('source-map-support').indexOf(process.cwd()) === 0 )
-            // If it's resolvable from the project root, it's a project dependency.
-            ? 'source-map-support/register'
-            // It's not under the project, it's linked via lerna.
-            : require.resolve('source-map-support/register')
-        }')`
+        banner: 'require(\'source-map-support/register\')'
       }),
       // The FriendlyErrorsWebpackPlugin (when combined with source-maps)
       // gives Backpack its human-readable error messages.
